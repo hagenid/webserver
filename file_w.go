@@ -17,7 +17,6 @@ func main() {
 	}
 	defer file1.Close()
 	file1.WriteString(text1)
-
 	fmt.Println("Done.")
 
 	file, err := os.Open("hello.txt")
